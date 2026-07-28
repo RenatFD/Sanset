@@ -21,7 +21,7 @@ export interface Service {
 }
 
 export interface ServiceDetail extends Service {
-  features: string[]
+  features: readonly string[]
 }
 
 export interface Review {

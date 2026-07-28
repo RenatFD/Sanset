@@ -1,6 +1,6 @@
 import { memo, useCallback, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Menu, X, Phone } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { cn } from '../lib/utils'
 import { Button } from './ui/Button'
 import { NAV_LINKS, PHONE_NUMBER, PHONE_HREF } from '../lib/constants'

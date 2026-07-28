@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { Star } from 'lucide-react'
-import type { Review } from '../../lib/types'
+import type { Review } from '../lib/types'
 
 interface ReviewCardProps extends Review { large?: boolean }
 

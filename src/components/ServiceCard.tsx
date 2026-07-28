@@ -1,6 +1,6 @@
 import { memo, useCallback, useRef } from 'react'
 import { motion } from 'framer-motion'
-import type { Service } from '../../lib/types'
+import type { Service } from '../lib/types'
 
 interface ServiceCardProps extends Service { index: number }
 

@@ -1,6 +1,5 @@
 import { memo } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
 import { ServiceCard } from '../ServiceCard'
 import { SERVICES_OVERVIEW } from '../../lib/constants'
 

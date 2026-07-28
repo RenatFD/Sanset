@@ -5,7 +5,7 @@ import { cn } from '../../lib/utils'
 type ButtonVariant = 'outline' | 'ghost'
 type ButtonSize = 'sm' | 'md' | 'lg'
 
-interface ButtonBaseProps { variant?: ButtonVariant; size?: ButtonSize; loading?: boolean }
+interface ButtonBaseProps { variant?: ButtonVariant; size?: ButtonSize; loading?: boolean; disabled?: boolean }
 
 type ButtonAsButton = ButtonBaseProps & ButtonHTMLAttributes<HTMLButtonElement> & { as?: 'button'; to?: never; href?: never }
 type ButtonAsLink = ButtonBaseProps & LinkProps & { as: typeof Link; to: string; href?: never }
