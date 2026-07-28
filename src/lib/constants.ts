@@ -52,14 +52,16 @@ export const SERVICES_OVERVIEW = [
     title: 'Аренда дома',
     description: 'Уютные дом со всеми удобствами. От 2 до 15 гостей.',
     price: 'от 3 500 ₽',
-    image: '/images/sanset.jpg',
+    image: './images/sanset.jpg',
   },
   {
     icon: Flame,
     title: 'Баня с чаном',
-    description: 'Традиционная русская баня с горячим чаном под открытым небом.',
+    slug: 'banya',
+    description:
+      '...',
     price: 'от 2 000 ₽',
-    image: '/images/sans2.jpg',
+    image: './images/sans2.jpg',
   },
   {
     icon: Bike,
@@ -84,7 +86,7 @@ export const SERVICES_DETAILED = [
     description:
       'Просторные домики с террасой и видом на озеро. В каждом доме — кухня, санузел, спальные места, отопление и Wi-Fi.',
     price: 'от 3 500 ₽/сутки',
-    image: '/images/sanset.jpg',
+    image: './images/sanset.jpg',
     features: [
       'Дом на 2–4 гостей — 3 500 ₽',
       'Дом на 4–6 гостей — 5 500 ₽',
@@ -99,7 +101,7 @@ export const SERVICES_DETAILED = [
     description:
       'Настоящая русская баня на дровах с горячим чаном. Идеально после дня на природе — расслабление и перезагрузка.',
     price: 'от 2 000 ₽/сеанс',
-    image: '/images/sans2.jpg',
+    image: './images/sans2.jpg',
     features: [
       'Чан на 4–6 человек — 2 000 ₽',
       'Чан на 8 человек — 3 500 ₽',

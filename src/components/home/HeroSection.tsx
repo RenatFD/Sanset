@@ -22,7 +22,7 @@ export const HeroSection = memo(function HeroSection() {
       <div
         ref={ref}
         className={`absolute inset-0 z-0 ${styles.heroBg}`}
-        style={{ backgroundImage: 'url(/images/sns.png)' }}
+        style={{ backgroundImage: 'url(./images/sns.png)' }}
       />
       <div className={`absolute inset-0 z-10 ${styles.heroOverlay}`} />
       <div className="absolute top-0 right-0 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] bg-sunset-500/10 rounded-full blur-[80px] sm:blur-[120px] animate-glow-strong z-10" />
