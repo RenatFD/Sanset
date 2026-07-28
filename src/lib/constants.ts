@@ -58,8 +58,7 @@ export const SERVICES_OVERVIEW = [
     icon: Flame,
     title: 'Баня с чаном',
     slug: 'banya',
-    description:
-      '...',
+    description: 'Традиционная русская баня с горячим чаном под открытым небом.',
     price: 'от 2 000 ₽',
     image: './images/sans2.jpg',
   },
