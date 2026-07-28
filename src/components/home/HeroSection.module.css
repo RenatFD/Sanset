@@ -1,0 +1,10 @@
+.heroBg {
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+  transform-origin: center;
+}
+
+.heroOverlay {
+  background: linear-gradient(to top, #0c0602 0%, rgba(12, 6, 2, 0.7) 30%, rgba(234, 88, 12, 0.15) 60%, rgba(12, 6, 2, 0.5) 100%);
+}
